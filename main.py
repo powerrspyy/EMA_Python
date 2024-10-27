@@ -32,4 +32,7 @@ plt.xlabel('Time')
 plt.ylabel('Price')
 plt.legend()
 plt.grid()
-plt.show()
+
+# Save the plot as an image file
+plt.savefig('ema_plot.png', dpi=300)  # You can change 'ema_plot.png' to your desired filename
+plt.close()  # Close the plot if you don't want to display it
